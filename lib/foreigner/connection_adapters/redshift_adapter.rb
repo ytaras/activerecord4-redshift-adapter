@@ -1,4 +1,4 @@
-require 'foreginer/conneciton_adapters/sql2003'
+require 'foreginer/connection_adapters/sql2003'
 
 module Foreigner
   module ConnectionAdapters
