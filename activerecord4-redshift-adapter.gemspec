@@ -16,4 +16,10 @@ Gem::Specification.new do |s|
   s.required_ruby_version = '>= 2.0.0'
   s.add_dependency 'pg'
   s.add_dependency 'activerecord', ['~> 4.2.0']
+
+  s.add_development_dependency 'erubis'
+  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'pry'
+  s.add_development_dependency 'rails', '~> 4.2.3'
+  s.add_development_dependency 'bcrypt'
 end
